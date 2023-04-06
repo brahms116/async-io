@@ -88,6 +88,8 @@ use crate::reactor::{Reactor, Source};
 mod driver;
 mod reactor;
 
+pub mod os;
+
 pub use driver::block_on;
 pub use reactor::{Readable, ReadableOwned, Writable, WritableOwned};
 
